@@ -267,7 +267,8 @@ public class Parser {
 		Collection<String> keywords = new LinkedList<String>();
 		for (Element kw : keyWElem) {
 			String k = kw.text();
-			keywords.add(k);
+				keywords.add(k);
+			
 		}
 		m.setKeywords(keywords);
 		System.out.println("KLJUCNE RECI: " + keywords);
@@ -276,7 +277,10 @@ public class Parser {
 		Collection<String> awards = new LinkedList<String>();
 		for (Element aw : awardsWElem) {
 			String k = aw.text();
-			awards.add(k);
+			if (k.length()>0) {
+				awards.add(k);
+			}
+			
 		}
 		m.setAwards(awards);
 		System.out.println("NAGRADE: " + awards);

@@ -6,7 +6,7 @@ import com.hp.hpl.jena.tdb.TDBFactory;
 
 public class TDBDataProvider implements DataProvider {
 	
-	private static final String dir = "C:\\Users\\TOSHIBA\\workspaceHelios\\MoviesWeb\\tdb";
+	private static final String dir = "C:\\Users\\TOSHIBA\\git\\MoviesWeb\\MoviesWeb\\tdb";
 	private Dataset dataset;
 	
 	public TDBDataProvider() {

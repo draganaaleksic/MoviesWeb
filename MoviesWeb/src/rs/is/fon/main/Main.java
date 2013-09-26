@@ -23,7 +23,7 @@ public class Main {
 			// Parser.parseIMDB("http://www.imdb.com/search/title?at=0&genres=drama&sort=user_rating,desc&start=1&title_type=feature");
 		//Parser.parseIMDB("http://www.imdb.com/search/title?genres=thriller&title_type=feature");
 
-			 //DataModelManager.getInstance().write("Movies.rdf", "TURTLE");
+			// DataModelManager.getInstance().write("Movies.rdf", "TURTLE");
 		//TDB.sync(DataModelManager.getInstance().getDataset());
 
 			//QueryService qs = new QueryService();
